@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "80592B3C-7B35-4725-9FE8-63753EA54243",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:StarlingBank.xcodeproj",
+      "identifier" : "63E6929F2C55376400B38894",
+      "name" : "StarlingBank"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:StarlingBank.xcodeproj",
+        "identifier" : "63E692B52C55376600B38894",
+        "name" : "StarlingBankTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:StarlingBank.xcodeproj",
+        "identifier" : "63E692BF2C55376600B38894",
+        "name" : "StarlingBankUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBDependencyContainer",
+        "identifier" : "SBDependencyContainerTests",
+        "name" : "SBDependencyContainerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
