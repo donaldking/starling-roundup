@@ -7,11 +7,8 @@
 
 import UIKit
 import SBDependencyContainer
-import SBAccounts
 import SBAccountsInterface
-import SBTransactions
 import SBTransactionsInterface
-import SBSavingsGoals
 import SBSavingsGoalsInterface
 
 class ViewController: UIViewController {
