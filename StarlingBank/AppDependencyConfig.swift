@@ -1,4 +1,3 @@
-import Foundation
 import SBDependencyContainer
 import SBAccounts
 import SBAccountsInterface
