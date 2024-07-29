@@ -38,6 +38,48 @@
         "identifier" : "SBDependencyContainerTests",
         "name" : "SBDependencyContainerTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBAccounts",
+        "identifier" : "SBAccountsTests",
+        "name" : "SBAccountsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBCommonModels",
+        "identifier" : "SBCommonModelsTests",
+        "name" : "SBCommonModelsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBDomainModels",
+        "identifier" : "SBDomainModelsTests",
+        "name" : "SBDomainModelsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBNetwork",
+        "identifier" : "SBNetworkTests",
+        "name" : "SBNetworkTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBSavingsGoals",
+        "identifier" : "SBSavingsGoalsTests",
+        "name" : "SBSavingsGoalsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBTransactions",
+        "identifier" : "SBTransactionsTests",
+        "name" : "SBTransactionsTests"
+      }
     }
   ],
   "version" : 1
