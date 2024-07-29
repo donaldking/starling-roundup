@@ -10,7 +10,6 @@
 		63A514FC2C57E96E002F5C57 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A514FB2C57E96E002F5C57 /* RootCoordinator.swift */; };
 		63E692A42C55376400B38894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692A32C55376400B38894 /* AppDelegate.swift */; };
 		63E692A62C55376400B38894 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692A52C55376400B38894 /* SceneDelegate.swift */; };
-		63E692A82C55376400B38894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692A72C55376400B38894 /* ViewController.swift */; };
 		63E692AD2C55376600B38894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E692AC2C55376600B38894 /* Assets.xcassets */; };
 		63E692B02C55376600B38894 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63E692AF2C55376600B38894 /* Base */; };
 		63E692BB2C55376600B38894 /* StarlingBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692BA2C55376600B38894 /* StarlingBankTests.swift */; };
@@ -59,7 +58,6 @@
 		63E692A02C55376400B38894 /* StarlingBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarlingBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E692A32C55376400B38894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E692A52C55376400B38894 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63E692A72C55376400B38894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63E692AC2C55376600B38894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E692AF2C55376600B38894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E692B12C55376600B38894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				63A514FA2C57E95B002F5C57 /* Root */,
 				63E692A32C55376400B38894 /* AppDelegate.swift */,
 				63E692A52C55376400B38894 /* SceneDelegate.swift */,
-				63E692A72C55376400B38894 /* ViewController.swift */,
 				63E692AC2C55376600B38894 /* Assets.xcassets */,
 				63E692AE2C55376600B38894 /* LaunchScreen.storyboard */,
 				63E692B12C55376600B38894 /* Info.plist */,
@@ -354,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E692A82C55376400B38894 /* ViewController.swift in Sources */,
 				63E692A42C55376400B38894 /* AppDelegate.swift in Sources */,
 				63A514FC2C57E96E002F5C57 /* RootCoordinator.swift in Sources */,
 				63E692E22C5590AD00B38894 /* AppDependencyConfig.swift in Sources */,
