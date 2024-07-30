@@ -14,18 +14,13 @@
 		63E692AD2C55376600B38894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E692AC2C55376600B38894 /* Assets.xcassets */; };
 		63E692B02C55376600B38894 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63E692AF2C55376600B38894 /* Base */; };
 		63E692BB2C55376600B38894 /* StarlingBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692BA2C55376600B38894 /* StarlingBankTests.swift */; };
-		63E692C52C55376600B38894 /* StarlingBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692C42C55376600B38894 /* StarlingBankUITests.swift */; };
-		63E692C72C55376600B38894 /* StarlingBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692C62C55376600B38894 /* StarlingBankUITestsLaunchTests.swift */; };
 		63E692D92C5538D900B38894 /* SBDependencyContainer in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D42C5538D900B38894 /* SBDependencyContainer */; };
 		63E692DA2C5538D900B38894 /* SBAccounts in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D52C5538D900B38894 /* SBAccounts */; };
-		63E692DB2C5538D900B38894 /* SBNetwork in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D62C5538D900B38894 /* SBNetwork */; };
 		63E692DC2C5538D900B38894 /* SBTransactions in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D72C5538D900B38894 /* SBTransactions */; };
 		63E692DD2C5538D900B38894 /* SBSavingsGoals in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D82C5538D900B38894 /* SBSavingsGoals */; };
 		63E692E22C5590AD00B38894 /* AppDependencyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692E12C5590AD00B38894 /* AppDependencyConfig.swift */; };
 		63E692E52C55A56800B38894 /* SBDependencyContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 63E692E42C55A56800B38894 /* SBDependencyContainer */; };
 		63E692E92C55A61500B38894 /* SBNetworkInterface in Resources */ = {isa = PBXBuildFile; fileRef = 63E692E82C55A61500B38894 /* SBNetworkInterface */; };
-		63E692F02C56695E00B38894 /* SBCommonModels in Resources */ = {isa = PBXBuildFile; fileRef = 63E692EE2C56695E00B38894 /* SBCommonModels */; };
-		63E692F12C56695E00B38894 /* SBDomainModels in Resources */ = {isa = PBXBuildFile; fileRef = 63E692EF2C56695E00B38894 /* SBDomainModels */; };
 		63E692F32C570CE300B38894 /* SBAccountsInterface in Resources */ = {isa = PBXBuildFile; fileRef = 63E692F22C570CE300B38894 /* SBAccountsInterface */; };
 		63E692F52C570D6900B38894 /* SBAccountsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 63E692F42C570D6900B38894 /* SBAccountsInterface */; };
 		63E692F72C570D6E00B38894 /* SBAccounts in Frameworks */ = {isa = PBXBuildFile; productRef = 63E692F62C570D6E00B38894 /* SBAccounts */; };
@@ -45,13 +40,6 @@
 			remoteGlobalIDString = 63E6929F2C55376400B38894;
 			remoteInfo = StarlingBank;
 		};
-		63E692C12C55376600B38894 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63E692982C55376400B38894 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63E6929F2C55376400B38894;
-			remoteInfo = StarlingBank;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -64,19 +52,13 @@
 		63E692B12C55376600B38894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E692B62C55376600B38894 /* StarlingBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarlingBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E692BA2C55376600B38894 /* StarlingBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlingBankTests.swift; sourceTree = "<group>"; };
-		63E692C02C55376600B38894 /* StarlingBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarlingBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63E692C42C55376600B38894 /* StarlingBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlingBankUITests.swift; sourceTree = "<group>"; };
-		63E692C62C55376600B38894 /* StarlingBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlingBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63E692D42C5538D900B38894 /* SBDependencyContainer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBDependencyContainer; sourceTree = "<group>"; };
 		63E692D52C5538D900B38894 /* SBAccounts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBAccounts; sourceTree = "<group>"; };
-		63E692D62C5538D900B38894 /* SBNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBNetwork; sourceTree = "<group>"; };
 		63E692D72C5538D900B38894 /* SBTransactions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBTransactions; sourceTree = "<group>"; };
 		63E692D82C5538D900B38894 /* SBSavingsGoals */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBSavingsGoals; sourceTree = "<group>"; };
 		63E692E02C558DB800B38894 /* StarlingBank.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = StarlingBank.xctestplan; sourceTree = "<group>"; };
 		63E692E12C5590AD00B38894 /* AppDependencyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyConfig.swift; sourceTree = "<group>"; };
 		63E692E82C55A61500B38894 /* SBNetworkInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBNetworkInterface; sourceTree = "<group>"; };
-		63E692EE2C56695E00B38894 /* SBCommonModels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBCommonModels; sourceTree = "<group>"; };
-		63E692EF2C56695E00B38894 /* SBDomainModels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBDomainModels; sourceTree = "<group>"; };
 		63E692F22C570CE300B38894 /* SBAccountsInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBAccountsInterface; sourceTree = "<group>"; };
 		63E692F82C5725CF00B38894 /* SBTransactionsInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBTransactionsInterface; sourceTree = "<group>"; };
 		63E693042C573E7700B38894 /* SBSavingsGoalsInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBSavingsGoalsInterface; sourceTree = "<group>"; };
@@ -105,13 +87,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E692BD2C55376600B38894 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -130,7 +105,6 @@
 				63E692D32C55389800B38894 /* Packages */,
 				63E692A22C55376400B38894 /* StarlingBank */,
 				63E692B92C55376600B38894 /* StarlingBankTests */,
-				63E692C32C55376600B38894 /* StarlingBankUITests */,
 				63E692A12C55376400B38894 /* Products */,
 				63E692E32C55A56800B38894 /* Frameworks */,
 			);
@@ -141,7 +115,6 @@
 			children = (
 				63E692A02C55376400B38894 /* StarlingBank.app */,
 				63E692B62C55376600B38894 /* StarlingBankTests.xctest */,
-				63E692C02C55376600B38894 /* StarlingBankUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,24 +141,12 @@
 			path = StarlingBankTests;
 			sourceTree = "<group>";
 		};
-		63E692C32C55376600B38894 /* StarlingBankUITests */ = {
-			isa = PBXGroup;
-			children = (
-				63E692C42C55376600B38894 /* StarlingBankUITests.swift */,
-				63E692C62C55376600B38894 /* StarlingBankUITestsLaunchTests.swift */,
-			);
-			path = StarlingBankUITests;
-			sourceTree = "<group>";
-		};
 		63E692D32C55389800B38894 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
 				63E692D52C5538D900B38894 /* SBAccounts */,
 				63E692F22C570CE300B38894 /* SBAccountsInterface */,
-				63E692EE2C56695E00B38894 /* SBCommonModels */,
 				63E692D42C5538D900B38894 /* SBDependencyContainer */,
-				63E692EF2C56695E00B38894 /* SBDomainModels */,
-				63E692D62C5538D900B38894 /* SBNetwork */,
 				63E692E82C55A61500B38894 /* SBNetworkInterface */,
 				63E692D82C5538D900B38894 /* SBSavingsGoals */,
 				63E693042C573E7700B38894 /* SBSavingsGoalsInterface */,
@@ -251,24 +212,6 @@
 			productReference = 63E692B62C55376600B38894 /* StarlingBankTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		63E692BF2C55376600B38894 /* StarlingBankUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63E692D02C55376600B38894 /* Build configuration list for PBXNativeTarget "StarlingBankUITests" */;
-			buildPhases = (
-				63E692BC2C55376600B38894 /* Sources */,
-				63E692BD2C55376600B38894 /* Frameworks */,
-				63E692BE2C55376600B38894 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				63E692C22C55376600B38894 /* PBXTargetDependency */,
-			);
-			name = StarlingBankUITests;
-			productName = StarlingBankUITests;
-			productReference = 63E692C02C55376600B38894 /* StarlingBankUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -283,10 +226,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					63E692B52C55376600B38894 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 63E6929F2C55376400B38894;
-					};
-					63E692BF2C55376600B38894 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 63E6929F2C55376400B38894;
 					};
@@ -307,7 +246,6 @@
 			targets = (
 				63E6929F2C55376400B38894 /* StarlingBank */,
 				63E692B52C55376600B38894 /* StarlingBankTests */,
-				63E692BF2C55376600B38894 /* StarlingBankUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,27 +258,17 @@
 				63E693052C573E7700B38894 /* SBSavingsGoalsInterface in Resources */,
 				63E692D92C5538D900B38894 /* SBDependencyContainer in Resources */,
 				63E692F92C5725CF00B38894 /* SBTransactionsInterface in Resources */,
-				63E692F12C56695E00B38894 /* SBDomainModels in Resources */,
 				63E692AD2C55376600B38894 /* Assets.xcassets in Resources */,
 				63E692DC2C5538D900B38894 /* SBTransactions in Resources */,
 				63E692B02C55376600B38894 /* Base in Resources */,
 				63E692DD2C5538D900B38894 /* SBSavingsGoals in Resources */,
 				63E692DA2C5538D900B38894 /* SBAccounts in Resources */,
-				63E692F02C56695E00B38894 /* SBCommonModels in Resources */,
-				63E692DB2C5538D900B38894 /* SBNetwork in Resources */,
 				63E692F32C570CE300B38894 /* SBAccountsInterface in Resources */,
 				63E692E92C55A61500B38894 /* SBNetworkInterface in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		63E692B42C55376600B38894 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63E692BE2C55376600B38894 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,15 +297,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E692BC2C55376600B38894 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63E692C72C55376600B38894 /* StarlingBankUITestsLaunchTests.swift in Sources */,
-				63E692C52C55376600B38894 /* StarlingBankUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -385,11 +304,6 @@
 			isa = PBXTargetDependency;
 			target = 63E6929F2C55376400B38894 /* StarlingBank */;
 			targetProxy = 63E692B72C55376600B38894 /* PBXContainerItemProxy */;
-		};
-		63E692C22C55376600B38894 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 63E6929F2C55376400B38894 /* StarlingBank */;
-			targetProxy = 63E692C12C55376600B38894 /* PBXContainerItemProxy */;
 		};
 		63E692DF2C558CA600B38894 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -620,40 +534,6 @@
 			};
 			name = Release;
 		};
-		63E692D12C55376600B38894 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tusk.StarlingBankUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = StarlingBank;
-			};
-			name = Debug;
-		};
-		63E692D22C55376600B38894 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tusk.StarlingBankUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = StarlingBank;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -680,15 +560,6 @@
 			buildConfigurations = (
 				63E692CE2C55376600B38894 /* Debug */,
 				63E692CF2C55376600B38894 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		63E692D02C55376600B38894 /* Build configuration list for PBXNativeTarget "StarlingBankUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63E692D12C55376600B38894 /* Debug */,
-				63E692D22C55376600B38894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

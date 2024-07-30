@@ -25,14 +25,6 @@
       }
     },
     {
-      "parallelizable" : true,
-      "target" : {
-        "containerPath" : "container:StarlingBank.xcodeproj",
-        "identifier" : "63E692BF2C55376600B38894",
-        "name" : "StarlingBankUITests"
-      }
-    },
-    {
       "target" : {
         "containerPath" : "container:Packages\/SBDependencyContainer",
         "identifier" : "SBDependencyContainerTests",
@@ -44,27 +36,6 @@
         "containerPath" : "container:Packages\/SBAccounts",
         "identifier" : "SBAccountsTests",
         "name" : "SBAccountsTests"
-      }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:Packages\/SBCommonModels",
-        "identifier" : "SBCommonModelsTests",
-        "name" : "SBCommonModelsTests"
-      }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:Packages\/SBDomainModels",
-        "identifier" : "SBDomainModelsTests",
-        "name" : "SBDomainModelsTests"
-      }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:Packages\/SBNetwork",
-        "identifier" : "SBNetworkTests",
-        "name" : "SBNetworkTests"
       }
     },
     {
