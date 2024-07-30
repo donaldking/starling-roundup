@@ -8,11 +8,12 @@
 import UIKit
 import SBDependencyContainer
 import SBAccountsInterface
+import SBNetwork
 
 final class RootCoordinator {
-    func makeInitialViewController(navigationController: UINavigationController) -> UIViewController {
+    func makeInitialViewController(navigationController: UINavigationController) {
         let gateway = DC.shared.resolve(dependency: .closure, for: SBAccountsInterface.self)
-        let viewController = gateway.makeSBAccountsModule(navigationController: navigationController)
-        return viewController
+        let viewController = gateway.makeSBAccountsModule(navigationController: navigationController, networkService: SBNetwork.shared)
+        navigationController.viewControllers = [viewController]
     }
 }

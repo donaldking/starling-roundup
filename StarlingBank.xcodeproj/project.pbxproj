@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63A514FC2C57E96E002F5C57 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A514FB2C57E96E002F5C57 /* RootCoordinator.swift */; };
+		63A515062C58278A002F5C57 /* SBNetworkInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 63A515052C58278A002F5C57 /* SBNetworkInterface */; };
 		63E692A42C55376400B38894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692A32C55376400B38894 /* AppDelegate.swift */; };
 		63E692A62C55376400B38894 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692A52C55376400B38894 /* SceneDelegate.swift */; };
 		63E692AD2C55376600B38894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E692AC2C55376600B38894 /* Assets.xcassets */; };
@@ -88,6 +89,7 @@
 			files = (
 				63E693072C573E9B00B38894 /* SBSavingsGoalsInterface in Frameworks */,
 				63E692F52C570D6900B38894 /* SBAccountsInterface in Frameworks */,
+				63A515062C58278A002F5C57 /* SBNetworkInterface in Frameworks */,
 				63E692FD2C57260400B38894 /* SBTransactionsInterface in Frameworks */,
 				63E692FB2C5725FB00B38894 /* SBTransactions in Frameworks */,
 				63E692F72C570D6E00B38894 /* SBAccounts in Frameworks */,
@@ -224,6 +226,7 @@
 				63E692FC2C57260400B38894 /* SBTransactionsInterface */,
 				63E693022C573BE600B38894 /* SBSavingsGoals */,
 				63E693062C573E9B00B38894 /* SBSavingsGoalsInterface */,
+				63A515052C58278A002F5C57 /* SBNetworkInterface */,
 			);
 			productName = StarlingBank;
 			productReference = 63E692A02C55376400B38894 /* StarlingBank.app */;
@@ -693,6 +696,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		63A515052C58278A002F5C57 /* SBNetworkInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SBNetworkInterface;
+		};
 		63E692DE2C558CA600B38894 /* SBDependencyContainer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SBDependencyContainer;
