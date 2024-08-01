@@ -1,8 +1,8 @@
 import SBDependencyContainer
 import SBAccount
 import SBAccountInterface
-import SBTransactions
-import SBTransactionsInterface
+import SBTransaction
+import SBTransactionInterface
 import SBSavingsGoal
 import SBSavingsGoalInterface
 import SBWebClient
@@ -18,8 +18,8 @@ enum AppDependencyConfig {
         DC.shared.register(dependency: .closure(accountGatewayClosure), for: SBAccountInterface.self)
         
         // Register transactions module gateway
-        let transactionsGatewayClosure: () -> SBTransactionsInterface = { TransactionsModuleGateway() }
-        DC.shared.register(dependency: .closure(transactionsGatewayClosure), for: SBTransactionsInterface.self)
+        let transactionGatewayClosure: () -> SBTransactionInterface = { TransactionModuleGateway() }
+        DC.shared.register(dependency: .closure(transactionGatewayClosure), for: SBTransactionInterface.self)
         
         // Register savings goals module gateway
         let savingsGoalGatewayClosure: () -> SBSavingsGoalInterface = { SavingsGoalModuleGateway() }
