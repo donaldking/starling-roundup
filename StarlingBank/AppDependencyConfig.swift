@@ -1,6 +1,6 @@
 import SBDependencyContainer
-import SBAccounts
-import SBAccountsInterface
+import SBAccount
+import SBAccountInterface
 import SBTransactions
 import SBTransactionsInterface
 import SBSavingsGoals
@@ -14,8 +14,8 @@ private let token = "eyJhbGciOiJQUzI1NiIsInppcCI6IkdaSVAifQ.H4sIAAAAAAAA_21Ty46j
 enum AppDependencyConfig {
     static func configure() {
         // Register accounts module gateway
-        let accountsGatewayClosure: () -> SBAccountsInterface = { AccountsModuleGateway() }
-        DC.shared.register(dependency: .closure(accountsGatewayClosure), for: SBAccountsInterface.self)
+        let accountGatewayClosure: () -> SBAccountInterface = { AccountModuleGateway() }
+        DC.shared.register(dependency: .closure(accountGatewayClosure), for: SBAccountInterface.self)
         
         // Register transactions module gateway
         let transactionsGatewayClosure: () -> SBTransactionsInterface = { TransactionsModuleGateway() }
