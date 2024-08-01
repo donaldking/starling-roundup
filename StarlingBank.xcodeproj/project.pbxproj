@@ -11,6 +11,10 @@
 		631ED0CA2C5BB0A400897D47 /* SBAccountInterface in Resources */ = {isa = PBXBuildFile; fileRef = 631ED0C92C5BB0A400897D47 /* SBAccountInterface */; };
 		631ED0CE2C5BB0BB00897D47 /* SBAccountInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 631ED0CD2C5BB0BB00897D47 /* SBAccountInterface */; };
 		631ED0D02C5BB2C600897D47 /* SBAccount in Frameworks */ = {isa = PBXBuildFile; productRef = 631ED0CF2C5BB2C600897D47 /* SBAccount */; };
+		631ED0D32C5BB66D00897D47 /* SBSavingsGoalInterface in Resources */ = {isa = PBXBuildFile; fileRef = 631ED0D12C5BB66D00897D47 /* SBSavingsGoalInterface */; };
+		631ED0D42C5BB66D00897D47 /* SBSavingsGoal in Resources */ = {isa = PBXBuildFile; fileRef = 631ED0D22C5BB66D00897D47 /* SBSavingsGoal */; };
+		631ED0D62C5BB69100897D47 /* SBSavingsGoal in Frameworks */ = {isa = PBXBuildFile; productRef = 631ED0D52C5BB69100897D47 /* SBSavingsGoal */; };
+		631ED0D82C5BB69100897D47 /* SBSavingsGoalInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 631ED0D72C5BB69100897D47 /* SBSavingsGoalInterface */; };
 		6355FBB52C5A695E007E4E09 /* SBWebClient in Resources */ = {isa = PBXBuildFile; fileRef = 6355FBB42C5A695D007E4E09 /* SBWebClient */; };
 		6355FBB72C5A696F007E4E09 /* SBWebClientInterface in Resources */ = {isa = PBXBuildFile; fileRef = 6355FBB62C5A696F007E4E09 /* SBWebClientInterface */; };
 		6355FBB92C5A6998007E4E09 /* SBWebClient in Frameworks */ = {isa = PBXBuildFile; productRef = 6355FBB82C5A6998007E4E09 /* SBWebClient */; };
@@ -23,15 +27,11 @@
 		63E692BB2C55376600B38894 /* StarlingBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692BA2C55376600B38894 /* StarlingBankTests.swift */; };
 		63E692D92C5538D900B38894 /* SBDependencyContainer in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D42C5538D900B38894 /* SBDependencyContainer */; };
 		63E692DC2C5538D900B38894 /* SBTransactions in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D72C5538D900B38894 /* SBTransactions */; };
-		63E692DD2C5538D900B38894 /* SBSavingsGoals in Resources */ = {isa = PBXBuildFile; fileRef = 63E692D82C5538D900B38894 /* SBSavingsGoals */; };
 		63E692E22C5590AD00B38894 /* AppDependencyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E692E12C5590AD00B38894 /* AppDependencyConfig.swift */; };
 		63E692E52C55A56800B38894 /* SBDependencyContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 63E692E42C55A56800B38894 /* SBDependencyContainer */; };
 		63E692F92C5725CF00B38894 /* SBTransactionsInterface in Resources */ = {isa = PBXBuildFile; fileRef = 63E692F82C5725CF00B38894 /* SBTransactionsInterface */; };
 		63E692FB2C5725FB00B38894 /* SBTransactions in Frameworks */ = {isa = PBXBuildFile; productRef = 63E692FA2C5725FB00B38894 /* SBTransactions */; };
 		63E692FD2C57260400B38894 /* SBTransactionsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 63E692FC2C57260400B38894 /* SBTransactionsInterface */; };
-		63E693032C573BE600B38894 /* SBSavingsGoals in Frameworks */ = {isa = PBXBuildFile; productRef = 63E693022C573BE600B38894 /* SBSavingsGoals */; };
-		63E693052C573E7700B38894 /* SBSavingsGoalsInterface in Resources */ = {isa = PBXBuildFile; fileRef = 63E693042C573E7700B38894 /* SBSavingsGoalsInterface */; };
-		63E693072C573E9B00B38894 /* SBSavingsGoalsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 63E693062C573E9B00B38894 /* SBSavingsGoalsInterface */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,8 @@
 /* Begin PBXFileReference section */
 		631ED0C32C5BB06300897D47 /* SBAccount */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBAccount; sourceTree = "<group>"; };
 		631ED0C92C5BB0A400897D47 /* SBAccountInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBAccountInterface; sourceTree = "<group>"; };
+		631ED0D12C5BB66D00897D47 /* SBSavingsGoalInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBSavingsGoalInterface; sourceTree = "<group>"; };
+		631ED0D22C5BB66D00897D47 /* SBSavingsGoal */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBSavingsGoal; sourceTree = "<group>"; };
 		6355FBB42C5A695D007E4E09 /* SBWebClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBWebClient; sourceTree = "<group>"; };
 		6355FBB62C5A696F007E4E09 /* SBWebClientInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBWebClientInterface; sourceTree = "<group>"; };
 		63A514FB2C57E96E002F5C57 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
@@ -60,11 +62,9 @@
 		63E692BA2C55376600B38894 /* StarlingBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlingBankTests.swift; sourceTree = "<group>"; };
 		63E692D42C5538D900B38894 /* SBDependencyContainer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBDependencyContainer; sourceTree = "<group>"; };
 		63E692D72C5538D900B38894 /* SBTransactions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBTransactions; sourceTree = "<group>"; };
-		63E692D82C5538D900B38894 /* SBSavingsGoals */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBSavingsGoals; sourceTree = "<group>"; };
 		63E692E02C558DB800B38894 /* StarlingBank.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = StarlingBank.xctestplan; sourceTree = "<group>"; };
 		63E692E12C5590AD00B38894 /* AppDependencyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyConfig.swift; sourceTree = "<group>"; };
 		63E692F82C5725CF00B38894 /* SBTransactionsInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBTransactionsInterface; sourceTree = "<group>"; };
-		63E693042C573E7700B38894 /* SBSavingsGoalsInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SBSavingsGoalsInterface; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,15 +72,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E693072C573E9B00B38894 /* SBSavingsGoalsInterface in Frameworks */,
+				631ED0D62C5BB69100897D47 /* SBSavingsGoal in Frameworks */,
 				631ED0CE2C5BB0BB00897D47 /* SBAccountInterface in Frameworks */,
 				6355FBBB2C5A69A0007E4E09 /* SBWebClientInterface in Frameworks */,
 				63E692FD2C57260400B38894 /* SBTransactionsInterface in Frameworks */,
+				631ED0D82C5BB69100897D47 /* SBSavingsGoalInterface in Frameworks */,
 				631ED0D02C5BB2C600897D47 /* SBAccount in Frameworks */,
 				63E692FB2C5725FB00B38894 /* SBTransactions in Frameworks */,
 				6355FBB92C5A6998007E4E09 /* SBWebClient in Frameworks */,
 				63E692E52C55A56800B38894 /* SBDependencyContainer in Frameworks */,
-				63E693032C573BE600B38894 /* SBSavingsGoals in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +151,8 @@
 				631ED0C32C5BB06300897D47 /* SBAccount */,
 				631ED0C92C5BB0A400897D47 /* SBAccountInterface */,
 				63E692D42C5538D900B38894 /* SBDependencyContainer */,
-				63E692D82C5538D900B38894 /* SBSavingsGoals */,
-				63E693042C573E7700B38894 /* SBSavingsGoalsInterface */,
+				631ED0D22C5BB66D00897D47 /* SBSavingsGoal */,
+				631ED0D12C5BB66D00897D47 /* SBSavingsGoalInterface */,
 				63E692D72C5538D900B38894 /* SBTransactions */,
 				63E692F82C5725CF00B38894 /* SBTransactionsInterface */,
 				6355FBB42C5A695D007E4E09 /* SBWebClient */,
@@ -188,12 +188,12 @@
 				63E692E42C55A56800B38894 /* SBDependencyContainer */,
 				63E692FA2C5725FB00B38894 /* SBTransactions */,
 				63E692FC2C57260400B38894 /* SBTransactionsInterface */,
-				63E693022C573BE600B38894 /* SBSavingsGoals */,
-				63E693062C573E9B00B38894 /* SBSavingsGoalsInterface */,
 				6355FBB82C5A6998007E4E09 /* SBWebClient */,
 				6355FBBA2C5A69A0007E4E09 /* SBWebClientInterface */,
 				631ED0CD2C5BB0BB00897D47 /* SBAccountInterface */,
 				631ED0CF2C5BB2C600897D47 /* SBAccount */,
+				631ED0D52C5BB69100897D47 /* SBSavingsGoal */,
+				631ED0D72C5BB69100897D47 /* SBSavingsGoalInterface */,
 			);
 			productName = StarlingBank;
 			productReference = 63E692A02C55376400B38894 /* StarlingBank.app */;
@@ -261,16 +261,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E693052C573E7700B38894 /* SBSavingsGoalsInterface in Resources */,
 				63E692D92C5538D900B38894 /* SBDependencyContainer in Resources */,
 				63E692F92C5725CF00B38894 /* SBTransactionsInterface in Resources */,
 				63E692AD2C55376600B38894 /* Assets.xcassets in Resources */,
 				631ED0CA2C5BB0A400897D47 /* SBAccountInterface in Resources */,
 				63E692DC2C5538D900B38894 /* SBTransactions in Resources */,
+				631ED0D42C5BB66D00897D47 /* SBSavingsGoal in Resources */,
 				63E692B02C55376600B38894 /* Base in Resources */,
 				6355FBB72C5A696F007E4E09 /* SBWebClientInterface in Resources */,
-				63E692DD2C5538D900B38894 /* SBSavingsGoals in Resources */,
 				6355FBB52C5A695E007E4E09 /* SBWebClient in Resources */,
+				631ED0D32C5BB66D00897D47 /* SBSavingsGoalInterface in Resources */,
 				631ED0C52C5BB06300897D47 /* SBAccount in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +582,14 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = SBAccount;
 		};
+		631ED0D52C5BB69100897D47 /* SBSavingsGoal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SBSavingsGoal;
+		};
+		631ED0D72C5BB69100897D47 /* SBSavingsGoalInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SBSavingsGoalInterface;
+		};
 		6355FBB82C5A6998007E4E09 /* SBWebClient */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SBWebClient;
@@ -605,14 +613,6 @@
 		63E692FC2C57260400B38894 /* SBTransactionsInterface */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SBTransactionsInterface;
-		};
-		63E693022C573BE600B38894 /* SBSavingsGoals */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SBSavingsGoals;
-		};
-		63E693062C573E9B00B38894 /* SBSavingsGoalsInterface */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SBSavingsGoalsInterface;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
