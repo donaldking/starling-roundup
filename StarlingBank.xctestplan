@@ -33,23 +33,30 @@
     },
     {
       "target" : {
-        "containerPath" : "container:Packages\/SBAccounts",
-        "identifier" : "SBAccountsTests",
-        "name" : "SBAccountsTests"
+        "containerPath" : "container:Packages\/SBAccount",
+        "identifier" : "SBAccountTests",
+        "name" : "SBAccountTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:Packages\/SBSavingsGoals",
-        "identifier" : "SBSavingsGoalsTests",
-        "name" : "SBSavingsGoalsTests"
+        "containerPath" : "container:Packages\/SBSavingsGoal",
+        "identifier" : "SBSavingsGoalTests",
+        "name" : "SBSavingsGoalTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:Packages\/SBTransactions",
-        "identifier" : "SBTransactionsTests",
-        "name" : "SBTransactionsTests"
+        "containerPath" : "container:Packages\/SBTransaction",
+        "identifier" : "SBTransactionTests",
+        "name" : "SBTransactionTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/SBWebClient",
+        "identifier" : "SBWebClientTests",
+        "name" : "SBWebClientTests"
       }
     }
   ],
