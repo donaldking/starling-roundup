@@ -26,16 +26,16 @@
     },
     {
       "target" : {
-        "containerPath" : "container:Packages\/SBDependencyContainer",
-        "identifier" : "SBDependencyContainerTests",
-        "name" : "SBDependencyContainerTests"
+        "containerPath" : "container:Packages\/SBAccount",
+        "identifier" : "SBAccountTests",
+        "name" : "SBAccountTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:Packages\/SBAccount",
-        "identifier" : "SBAccountTests",
-        "name" : "SBAccountTests"
+        "containerPath" : "container:Packages\/SBDependencyContainer",
+        "identifier" : "SBDependencyContainerTests",
+        "name" : "SBDependencyContainerTests"
       }
     },
     {
