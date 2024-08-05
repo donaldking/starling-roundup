@@ -1,0 +1,24 @@
+            {
+                "feedItems": [
+                    {
+                        "feedItemUid": "123",
+                        "categoryUid": "456",
+                        "amount": { "currency": "GBP", "minorUnits": 1250 },
+                        "sourceAmount": { "currency": "USD", "minorUnits": 1600 },
+                        "direction": "OUT",
+                        "updatedAt": "2023-07-28T12:00:00Z",
+                        "transactionTime": "2023-07-28T12:00:00Z",
+                        "settlementTime": "2023-07-28T12:00:00Z",
+                        "source": "API",
+                        "status": "SETTLED",
+                        "transactingApplicationUserUid": "user-uid",
+                        "counterPartyType": "PERSON",
+                        "counterPartyUid": "cp-uid",
+                        "counterPartyName": "John Doe",
+                        "country": "GB",
+                        "spendingCategory": "PAYMENTS",
+                        "hasAttachment": true,
+                        "hasReceipt": true
+                    }
+                ]
+            }
