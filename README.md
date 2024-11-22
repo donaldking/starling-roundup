@@ -1,5 +1,5 @@
-# Starling Bank Round-Up Savings iOS Application
-Starling Bank Round UP - iOS Tech Test by Donald King (donaldthedeveloper@gmail.com)
+# Round-Up Savings iOS Application
+Round UP - iOS App Donald King (donaldthedeveloper@gmail.com)
 
 ![Simulator Screen Recording - iPhone 15 Pro - 2024-08-05 at 13 05 40](https://github.com/user-attachments/assets/01fa0b46-1599-46af-81b7-3ee7d2c673ce)
 
